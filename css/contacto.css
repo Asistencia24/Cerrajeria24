@@ -25,26 +25,38 @@ text-transform: uppercase;
 }
                 
                                      /*Responsive*/
-              /*Movil*/
- @media(min-width: 480px){
-    #contacto .contenedor{
-        width: 40%;
+/* Contenedor principal */
+#contenedor {
+    font-size: 4em; /* Reducido para que sea más flexible */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Teléfono */
+.tel {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* RESPONSIVE: Ajustes para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    #contenedor {
+        font-size: 2.5em; /* Reducimos el tamaño del texto */
     }
- } 
-              /*Tablets*/   
- @media(min-wdth:768px){
-    #contacto .contenedor{
-        width: 40%;
+    .tel {
+        font-size: 2em; /* Reducimos para que se vea mejor */
     }
- } 
-             /*Escritorio*/
-@media(min-width:1024px){
-    #contacto .contenedor{
-        width: auto;
+}
+
+@media screen and (max-width: 480px) {
+    #contenedor {
+        font-size: 2em;
     }
-    
-}                                 
-        
+    .tel {
+        font-size: 1.5em;
+    }
+}     
 
         
 

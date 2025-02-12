@@ -18,6 +18,7 @@
 @import url(fontello-ie7.css);
 @import url(galeria.css);
 @import url(sugerencias.css);
+@import url(responsive.css);
 *{
     margin:0;
     padding:0;

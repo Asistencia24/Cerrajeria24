@@ -1,0 +1,75 @@
+footer{
+    background:rgba(28, 53, 77, 0.767);
+    border-radius: 30px;
+    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
+    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
+    
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 30px;
+    color:rgb(6, 63, 132);
+
+}
+.copy{
+    font-size: 20px;
+    padding: 20px;
+}
+.red-soc{
+    width: 100%;
+    text-align: center;
+    font-size:32px;
+
+}
+.red-soc a{
+    color:rgb(19, 155, 229);
+    text-decoration: none;
+    font-size:45px;
+    justify-content: center;
+    bottom: unset;
+    
+   
+}
+  /*Dispositivo Movil*/
+  @media(min-width: 420px){
+
+  
+
+  }
+    .red-soc{
+        
+        width: 100%;
+        height: auto;
+    }
+
+             /*Tablets*/
+@media(min-width:768px){
+    .red-soc{
+        width: auto;
+        font-size: 28px;
+        padding: 10px;
+    }
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}             
+                    /*Escritorio*/
+                    @media(min-width: 1920px){
+                        footer .contenedor{
+                            position:relative;
+                            width: auto;
+                            height: auto;
+                            transform: translateX(0%);
+                            float:inline-start;
+                            display: flex;
+                            
+                        }
+                        .copy{
+                            border: none;
+                        }
+                        header label{
+                            display: none;
+                        }
+                    }

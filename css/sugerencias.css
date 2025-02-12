@@ -1,0 +1,55 @@
+
+#sugerencias {
+    background:rgba(28, 53, 77, 0.474);
+    color: rgb(250, 246, 246);
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
+    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
+    
+}
+
+#sugerencias h1 {
+    color: #fafaf7; /* Tomate para un toque de color */
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: center;
+    float:none;
+    
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+#contact-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, #contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    padding: 10px;
+    width: 80px;
+    background-color: #244cb9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#contact-form button:hover {
+    background-color: #5198e9;
+}

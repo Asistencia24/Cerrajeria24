@@ -1,0 +1,58 @@
+#contacto {
+    background:rgba(28, 53, 77, 0.474);
+    padding: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color:rgb(9, 31, 119);
+    border-radius: 30px;
+    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
+    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
+    text-align: center;
+    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
+    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
+}
+#contenedor{
+    font-size: 6em;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.tel{
+    
+font-size: 4em;
+text-align: center;
+text-transform: uppercase;
+}
+                
+                                     /*Responsive*/
+              /*Movil*/
+ @media(min-width: 480px){
+    #contacto .contenedor{
+        width: 40%;
+    }
+ } 
+              /*Tablets*/   
+ @media(min-wdth:768px){
+    #contacto .contenedor{
+        width: 40%;
+    }
+ } 
+             /*Escritorio*/
+@media(min-width:1024px){
+    #contacto .contenedor{
+        width: auto;
+    }
+    
+}                                 
+        
+
+        
+
+
+        
+
+
+
+
+
+

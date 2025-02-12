@@ -1,0 +1,59 @@
+#menu-bar{
+    display: none;
+}
+
+header label{
+    display: none;
+    float:left;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+
+}
+
+.menu{
+    position: right;
+    top: 50px;
+    left: 0;
+
+    width: 100%;
+    height: 100vh;
+    background: hsl(200, 63%, 43%);
+
+    transition: all .5s;
+    transform: translateX(-100%);
+
+
+}
+
+.menu a{
+    display: block;
+    color: rgb(223, 232, 241);
+    height: 50px;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid #1e5da4;
+
+}
+
+.menu a:hover{
+    background: rgba(57, 138, 238, 0.989);
+
+}
+
+#menu-bar:checked ~.menu {
+    transform: translateX(100%);
+}
+/*Escritorio*/
+@media(min-width: 1024px){
+	.menu{
+		position: static;
+		width: auto;
+		height: auto;
+		transform: translateX(0%);
+		float: right;
+		display: flex;
+		background:#1e5da4;
+	}
+}
+	

@@ -1,0 +1,95 @@
+#registro{
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+#registro {
+    width: 400px;
+    background-color: rgb(60, 155, 206);
+    padding: 50px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(9, 23, 132);
+}
+#registro{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background-color: rgb(127, 182, 224);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom:16px;
+    border: 1px solido cornflowerblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+#registro a {
+    color:rgb(37, 92, 209);
+    text-decoration: none;
+
+}
+.registro a:hover{
+    color:rgb(23, 135, 183);
+    text-decoration: underline;
+}
+ #registro .boton{
+    width: 99%;
+    background-color: rgb(4, 25, 165);
+    border: none;
+    padding: 10px;
+    color: rgb(247, 243, 243);
+    margin:10px
+}
+#aceptar {  
+    position: relative;
+}
+
+#checkbox-p {
+    margin-top: -8%;
+}
+              /*Dispositivo Movil*/
+              @media(min-width: 420px){
+                .registro{
+                    background:rgba(51,51,51,.9);
+                    width: 100%;
+                    height: auto;
+                }
+            
+            }
+                                /*Tablets*/
+            @media(min-width: 768px){
+                .registro{
+                    background:rgba(51,51,51,.9);
+                    width: 100%;
+                    height: auto;
+                }
+            }
+                                /*Escritorio*/
+            @media(min-width: 1024px){
+                .registro{
+                    position: static;
+                    width: auto;
+                    height: auto;
+                    transform: translateX(0%);
+                    float: right;
+                    display: flex;
+                    background:#1e5da4;
+                }
+                .registro a{
+                    border: none;
+                }
+               
+                }
+            
+            

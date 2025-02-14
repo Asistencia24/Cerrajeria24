@@ -39,5 +39,42 @@
     z-index: 10;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+    header label {
+        font-size: 24px;
+        padding: 8px;
+    }
+    .menu {
+        width: 200px;
+    }
+    .menu a {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .gallery img {
+        width: 180px;
+        height: 130px;
+    }
+}
+
+@media (max-width: 480px) {
+    header label {
+        font-size: 20px;
+        padding: 6px;
+    }
+    .menu {
+        width: 180px;
+    }
+    .menu a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .gallery img {
+        width: 150px;
+        height: 110px;
+    }
+}
+
 
 

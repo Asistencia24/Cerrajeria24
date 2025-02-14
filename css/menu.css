@@ -1,4 +1,4 @@
-#menu-bar{
+#menu-bar {
     display: none;
     position: fixed;
     top: 0;
@@ -7,80 +7,74 @@
     height: 100%;
 }
 
-header label{
-    float:left;
+header label {
+    float: left;
     font-size: 28px;
-    margin: 6px ;
+    margin: 6px;
     cursor: pointer;
-
+    padding: 10px;
+    background: #1e5da4;
+    color: white;
+    border-radius: 5px;
 }
 
-.menu{
-    position: absolute;
-    top: 50px;
+.menu {
+    position: fixed;
+    top: 0;
     left: 0;
-
-    width: 100%;
+    width: 250px;
     height: 100vh;
-    background: hsl(200, 63%, 43%);
-
-    transition: all .5s;
+    background: hsla(200, 14%, 4%, 0.4);
+    transition: transform 0.5s ease-in-out;
     transform: translateX(-100%);
-
-
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+    padding-top: 60px;
 }
 
-.menu a{
+.menu a {
     display: block;
     color: rgb(223, 232, 241);
     height: 50px;
     text-decoration: none;
     padding: 15px;
-    border: 1px solid #1e5da4;
-
+    border-bottom: 1px solid #1e5da4;
+    transition: background 0.3s;
 }
 
-.menu a:hover{
+.menu a:hover {
     background: rgba(57, 138, 238, 0.989);
-
 }
 
-#menu-bar:checked ~.menu {
-    transform: translateX(0%);
+#menu-bar:checked ~ .menu {
+    transform: translateX(0);
 }
-              /*Dispositivo Movil*/
-@media(min-width: 420px){
-	.menu{
-		background:rgba(51,51,51,.9);
-		width: 100%;
-		height: auto;
-	}
-
-}
-                    /*Tablets*/
-@media(min-width: 768px){
-	.menu{
-		background:rgba(51,51,51,.9);
-		width: 100%;
-		height: auto;
-	}
-}
-                    /*Escritorio*/
-@media(min-width: 1024px){
-	.menu{
-		position: static;
-		width: auto;
-		height: auto;
-		transform: translateX(0%);
-		float: right;
-		display: flex;
-		background:#1e5da4;
-	}
-    .menu a{
-        border: none;
+/* Responsive Design */
+@media (max-width: 768px) {
+    header label {
+        font-size: 24px;
+        padding: 8px;
     }
-    header label{
-        display: none;
+    .menu {
+        width: 200px;
+    }
+    .menu a {
+        font-size: 16px;
+        padding: 12px;
     }
 }
+
+@media (max-width: 480px) {
+    header label {
+        font-size: 20px;
+        padding: 6px;
+    }
+    .menu {
+        width: 180px;
+    }
+    .menu a {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
 		

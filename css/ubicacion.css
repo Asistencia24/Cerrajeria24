@@ -1,44 +1,89 @@
-#ubicacion{
-    background:rgba(28, 53, 77, 0.474);
-    color:rgb(255, 255, 255);
+/* Ubicación */
+#ubicacion {
+    background: rgba(28, 53, 77, 0.474);
+    color: white;
     text-align: center;
     padding: 30px;
     border-radius: 30px;
     box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
     text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
-    
 }
-#ubicacion h3{
+
+#ubicacion h3 {
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
 }
-#ubicacion .contenedor{
-    display: flex;
-    padding: 35px;
-    flex-wrap: wrap;
-    justify-content: right;
-}
-#ubicacion .contenedor iframe{
-    width: 30%;
-    height: 300px;
-    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
-    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
-    
 
-    
+#ubicacion .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
-    #ubicacion .contenedor p{
-        padding: 40px;
-        width: 40%;
-        text-align: left;
+
+#ubicacion .contenedor iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgb(22, 35, 158), 0 0 20px rgb(15, 46, 171);
+}
+
+#ubicacion .contenedor p {
+    max-width: 500px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header label {
+        font-size: 24px;
+        padding: 8px;
     }
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    
+    .menu {
+        width: 200px;
     }
+    .menu a {
+        font-size: 16px;
+        padding: 12px;
+    }
+    .gallery img {
+        width: 180px;
+        height: 130px;
+    }
+    #ubicacion .contenedor {
+        flex-direction: column;
+        text-align: center;
+    }
+    #ubicacion .contenedor iframe {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    header label {
+        font-size: 20px;
+        padding: 6px;
+    }
+    .menu {
+        width: 180px;
+    }
+    .menu a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .gallery img {
+        width: 150px;
+        height: 110px;
+    }
+    #ubicacion .contenedor iframe {
+        width: 100%;
+    }
+}
     
     
     

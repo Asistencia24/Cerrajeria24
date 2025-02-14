@@ -64,10 +64,33 @@ section{
 }
 
 
-/*Escritorio*/
-@media(min-width: 1920px){
-	.contenedor{
-		width: 1400px;
-	}
+/* Responsive Design */
+@media (max-width: 768px) {
+    header{
+        height: 50px;
+    }
+    header h1{
+        font-size: 18px;
+    }
+    .contenedor{
+        margin: 5px;
+    }
+    section{
+        margin-top: 15px;
+    }
+}
 
+@media (max-width: 480px) {
+    header{
+        height: 45px;
+    }
+    header h1{
+        font-size: 16px;
+    }
+    .contenedor{
+        margin: 3px;
+    }
+    section{
+        margin-top: 10px;
+    }
 }

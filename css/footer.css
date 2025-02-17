@@ -5,7 +5,7 @@ footer{
     text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
     
 }
-footer .contenedor{
+#footer .contenedor{
     display: flex;
     flex-direction: column;
     justify-content: center;

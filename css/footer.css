@@ -7,9 +7,9 @@ footer{
 }
 footer .contenedor{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    padding-bottom: 30px;
+    align-items: center;
     color:rgb(6, 63, 132);
 
 }
@@ -21,17 +21,28 @@ footer .contenedor{
     width: 100%;
     text-align: center;
     font-size:32px;
+    margin-top: 32px;
 
 }
-.red-soc a{
-    color:rgb(19, 155, 229);
-    text-decoration: none;
-    font-size:45px;
-    justify-content: center;
+
+.icon-instagram-1{
+    color:rgb(225,48, 108);
+    font-size:60px;
+    margin: 0 15px;
     bottom: unset;
-    
+
+}  
+
+.icon-facebook-squared{
+    color:rgb(34, 103, 206);
+    font-size:60px;
+    margin: 0 15px;
+    bottom: unset;
+
+}  
    
-}
+   
+
   /*Dispositivo Movil*/
   @media(min-width: 420px){
 

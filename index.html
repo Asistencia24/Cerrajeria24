@@ -44,10 +44,9 @@
     <main>
 
         <section id="banner">
-       <div class="im"></div>
-       <img src="img/13.jpg" width="100%" alt="Cerrajería CL - Servicio 24 horas">
-    
-        </div>
+            <div class="im"></div>
+            <img src="img/71.png" width="80%" style="image-rendering: crisp-edges; display: block; margin: 0 auto;" alt="Cerrajería CL - Servicio 24 horas">
+        </section>
            
 
         </section>
@@ -65,7 +64,7 @@
             <h4><font color="white"> Venta e instalación de cerraduras inteligentes</font></h4>
         </div>
         <div class="serv">
-        <img src="img/18.jpg"alt="">
+        <img src="img/18.png"alt="">
         <h4><font color="white">Apertura de autos, sin dañar</font></h4>
         </div>
     <div class="serv">
@@ -73,16 +72,30 @@
         <h4><font color="white">Apertura, cambio de guardas y reparaciones </font></h4>
     </div>
     </div>
-    </section>
+</section>
     <section id="contacto">
         <h2> <font color="white">CONTACTO</font></h2>
-        <h2> <font color="white">Estamos a tu disposición todos los dias las 24 horas</font></h2>
+        <h2> <font color="white">Estamos a tu disposición todos los días las 24 horas</font></h2>
         <div class="contenedor">
-        <div class="tel">
-                
+            <div class="tel">
                 <h3><font color="yellow">3115262229 - 3214788971</font></h3>
-                
+                <a class="icon-whatsapp" href="https://wa.me/+573115262229" target="_blank"></a>
                 </div>
+    
+                <script>
+                    document.getElementById('whatsappButton').addEventListener('click', function() {
+                        const phoneNumber = '3115262229'; // Reemplaza con tu número de WhatsApp
+                        const message = encodeURIComponent('Hola, estoy interesado en su galería.');
+                        const url = `https://wa.me/${phoneNumber}?text=${message}`;
+    
+                        // Abrir en una nueva ventana emergente
+                        window.open(url, '_blank', 'width=600,height=600');
+                    });
+                </script>
+            </div>
+        
+    </section>
+            
                 
     </section>
 
@@ -121,19 +134,27 @@
 </div>
 
 </section>
+
 </main>
+  
 </div>
 </section>
 <section id="galeria">
     <h2 style="color: white;">GALERÍA</h2>
     <div class="gallery">
-        <img src="img/bm.jpg" alt="Imagen 1">
-        <img src="img/18.jpg" alt="Imagen 2">
-        <img src="img/14.jpg" alt="Imagen 3">
-        <img src="img/11.jpg" alt="Imagen 4">
-        <img src="img/15.jpg" alt="Imagen 5">
-        <img src="img/16.jpg" alt="Imagen 6">
-        <img src="img/17.jpg" alt="Imagen 7">
+        <a href="img/bm.jpg" target="_blank"><img src="img/bm.jpg" alt="Imagen 1"></a>
+        <a href="img/42.jpg" target="_blank"><img src="img/42.jpg" alt="Imagen 2"></a>
+        <a href="img/14.jpg" target="_blank"><img src="img/14.jpg" alt="Imagen 3"></a>
+        <a href="img/11.jpg" target="_blank"><img src="img/11.jpg" alt="Imagen 4"></a>
+        <a href="img/15.jpg" target="_blank"><img src="img/15.jpg" alt="Imagen 5"></a>
+        <a href="img/16.jpg" target="_blank"><img src="img/16.jpg" alt="Imagen 6"></a>
+        <a href="img/17.jpg" target="_blank"><img src="img/17.jpg" alt="Imagen 7"></a>
+        <a href="img/33.jpg" target="_blank"><img src="img/33.jpg" alt="Imagen 7"></a>
+        <a href="img/30.jpg" target="_blank"><img src="img/30.jpg" alt="Imagen 7"></a>
+        <a href="img/37.jpg" target="_blank"><img src="img/37.jpg" alt="Imagen 7"></a>
+        <a href="img/42.jpg" target="_blank"><img src="img/42.jpg" alt="Imagen 7"></a>
+        <a href="img/47.jpg" target="_blank"><img src="img/47.jpg" alt="Imagen 7"></a>
+        <a href="img/52.jpg" target="_blank"><img src="img/52.jpg" alt="Imagen 7"></a>
     </div>
     <script src="script.js"></script>
 </section>
@@ -196,9 +217,8 @@
 <footer> 
     <div class="contenedor">
         <p class="copy"><font color=" white">Cerrajeria CL App &copy;2024 Todos los derechos reservados </font></p>
-         <div class="red-soc">
+        <div class="red-soc">
             <a class="icon-facebook-squared" href="https://www.facebook.com/CerrajeriaCL24Horas..." target="_blank"></a>
-            <a class="icon-whatsapp" href="https://wa.me/+573115262229" target="_blank"></a>
             <a class="icon-instagram-1" href="https://www.instagram.com/aa.cerrajeriaelespecialista01?igsh=MWpveHl4bWRtMHNubg==..." target="_blank"></a>
         </div>
 </footer>

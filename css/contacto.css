@@ -17,12 +17,21 @@
     text-transform: uppercase;
 
 }
+
+.icon-whatsapp {
+    color:rgb(37, 211, 102);
+    text-decoration: none;
+    font-size:60px;
+    margin: 0 15px;
+    bottom: unset;}
 .tel{
     
 font-size: 4em;
 text-align: center;
 text-transform: uppercase;
 }
+
+
                 
                                      /*Responsive*/
 /* Contenedor principal */
@@ -57,7 +66,7 @@ text-transform: uppercase;
         font-size: 1.5em;
     }
 }     
-
+     
         
 
 
